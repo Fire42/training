@@ -1,0 +1,31 @@
+body {
+	background-color: #E6E6FA;
+	background: url(https://i.pinimg.com/originals/b4/bf/af/b4bfafa2dccc4cf3fe24f774b3f13b12.jpg) no-repeat;
+	background-size: 100% 110%;
+}
+table {
+	background-color: ForestGreen;
+}
+th {
+	background-color: #d27b43;
+}
+a {
+	color: SteelBlue;
+}
+ol li {
+	color: red;
+}
+
+.IE {
+color: blue;
+}
+
+.Opera {
+color: red;
+}
+.Chrome {
+color: DarkGoldenRod;
+}
+li{
+	font-size: 25px;
+}
