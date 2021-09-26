@@ -64,18 +64,34 @@ body{
 	font-size: 17px;
 	text-decoration: none;
  }
+ .uk-navbar {
+	 display: none;
+ }
  @media screen and (max-width: 479px){
 	 .inner{
 		 flex-wrap: wrap;
 		 padding-left: 5px;
 		 width: 98%;
 	 }
-	 .inner_phn_rcll{
+	 /*.inner_phn_rcll{
 		width: 100%; 
-	 }
+	 }*/
 	 .button{
 		margin: 0 auto;
 	 }
+	 .uk-navbar {
+	 display: contents;
+	  }
+	 
+	  .name, .inner_phn_rcll {
+		  display: none;
+	  }
+	  .inner_lg_nm {
+		width: 50%
+	  }
+	  .uk-navbar-toggle {
+		  min-height: 20px;
+	  }
  }
  /*article main_block*/
 .delivery {
