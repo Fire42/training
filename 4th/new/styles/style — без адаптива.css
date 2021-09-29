@@ -1,0 +1,333 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*header*/
+.inner {
+	margin-top: 1%;
+	margin-bottom:1.5%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1220px;
+	text-align: center;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.inner_lg_nm {
+	display: flex;
+	width: 50%;
+	justify-content: left;
+}
+.inner_phn_rcll{
+	display: flex;
+	width: 50%;
+	justify-content: right;
+}
+ .inner_lg_nm img {
+	left: 19.8%;
+	height: 44px;
+	/*height: 44px;
+	width:50%;*/
+ }
+ .name {
+	 display: inline-block;
+	width:50%;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 1%;
+	padding-left: 27px;
+ }
+ .phone {
+	 font-weight: 600;
+	 font-size: 20px;
+	 line-height: 50px;
+	 width:50%;
+	 text-align: center;
+ }
+ .button {
+	height: 50px;
+	width:35%;
+	/*width: 177px;*/
+	border-radius: 3px;
+	background-color: #ff4747;
+	color: #fff;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+ }
+ /*article main_block*/
+.delivery {
+	color: #a60402;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+}
+.dream_bouquet{
+	font-style: italic;
+	padding-top: 1.8%;
+	padding-bottom: 2.2%;
+	font-size: 31px;
+	
+}
+.button_ch{
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #ff4747;
+	color: #fff;
+	width: 300px;
+	height: 62px;
+	line-height: 60px;
+	margin-top: 3.3%;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;	
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+.first {
+		min-height: 600px;
+		background: url("../images/main_block.jpg") center no-repeat;
+		background-size: cover;
+}
+.main_block{
+	/*position: relative;*/
+	max-width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-left: 9%;*/
+	padding-top: 6.5%;
+	padding-bottom: 5%;
+	/*padding-right: 45%;*/	
+}
+
+/*article advantage*/
+.advantage {
+		background: url("../images/image 47.png");
+		background-size: cover;
+}
+.w980{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 980px;
+}
+.advant{
+	text-align: center;
+	color: #a50301;
+	font-size: 34px;
+	font-weight: 700;
+	padding-top: 6%;
+	margin-bottom: 1.6%;
+
+}
+.block1{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	margin: 0 auto;
+	/*height: 70%;*/
+	width: 100%;
+	
+	
+}
+.blck1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;	
+	letter-spacing: 2px;
+	width: 33.33%;
+	height: 30%;
+	margin: 4.9% 0;
+}
+.benefit {
+	margin: 10px auto; 
+	}
+
+/*article catalog*/
+.w1220{
+	max-width:1220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.catalog{
+	position: relative;
+	min-height: 1400px;
+	background: linear-gradient(to bottom, #fef1f8, #f4d2e2);/*url("../images/Rectangle 935.png") center no-repeat;*/
+	z-index: 100;
+}
+
+.block2{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin: 0 auto;
+	width: 100%;
+}
+.elem{
+	background-color: #fff;
+	text-align: center;
+	height: 530px;
+	border-radius: 6px;
+	display: block;
+	box-sizing: border-box;
+	padding: 40px;
+	margin: 10px;
+}
+.elem1{
+	/*padding: 10px;*/
+	width: 33.33%;
+}
+.elem img{
+	padding-top: 35px;
+	display: inline-block;
+	width: 90%;
+	max-width: 300px;
+	
+}
+
+
+.price {
+	font-style: italic;
+	font-size: 26px;
+	color: #A60303;
+	text-align: center;
+	margin-bottom: 36px;
+	margin-top: 27px;
+	box-sizing: border-box;
+}
+.bttn {
+	display: block;
+	background-color: #ff4747;
+	color: #fff;
+	/*height: 62px;*/
+	/*width: 300px;*/
+	/*max-width: 99.9%;*/
+	text-align: center;
+	margin-bottom: 7px;
+	border-radius: 3px;
+	line-height: 60px;
+	margin-top: 3.3%;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+/*article обратной связи*/
+.advantage1{
+	color: #222;
+	text-align: center;
+	font-size: 34px;
+	/*font-weight: 700;*/
+	padding-top: 3.7%;
+}
+.advantage2{
+	color: #a50301;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+}
+.advan{
+	background: url("../images/image 49.png");
+	background-size: cover;
+	padding-bottom: 5.9%;
+	/*width:1920px;*/
+	position: relative;
+	overflow: hidden;
+}
+.fon {
+	position: relative;
+	background: url("../images/Rectangle 937.png") center no-repeat;
+	max-width: 1220px;
+	margin-top: 8.77%; 
+	
+}
+.form{
+	margin-left: 4.3%;
+	padding-left: 6.5%;
+	padding-top: 8.45%;
+	padding-bottom: 5.53%;
+	/*margin-top: 7.3%;*/
+	max-width: 30%;
+	
+}
+.pic1{
+	position: absolute;
+	bottom: 0px;
+	left: 48.8%;
+}
+
+.pic2{
+	position: absolute;
+	left: 70%;
+	/*right: 8%;*/
+	top: 55%;
+}
+
+.form .bttn{
+	margin: 10px 0 25px 0;
+	background-color: #ff4747;
+	color: #fff;
+	height: 62px;
+	width: 300px;
+	border-style: none;
+	cursor: pointer;
+}
+
+.advan input{
+	height: 62px;
+	width: 300px;
+	border-radius: 3px;
+	border-color: #ff4747;
+	margin: 5px 0 5px 0;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.notice{
+	text-transform: uppercase;
+	text-align: center;
+	width: 300px;
+	font-size: 9px;
+}
+
+/*footer*/
+footer{
+	background: url("../images/image 44.png") center no-repeat;
+	background-color:#a6567b;
+	color: #fff;
+	/*width:1920px;*/
+}
+
+.foot{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 50px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto
+}
+
+.foot .phone{
+	width: 50%;
+	text-align: right;
+}
+
+.copy{
+	text-align: left;
+	font-size: 15px;
+	padding: 58.5px 0px;
+}
